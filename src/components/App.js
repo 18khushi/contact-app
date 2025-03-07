@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import UserInfo from "./UserInfo"; 
+import UserInfo from "./UserInfo";
 import { v4 as uuid } from "uuid";
 import "./App.css";
 import Header from "./Header"; // Corrected casing for the import statement
@@ -28,9 +28,9 @@ function App() {
 
   useEffect(() => {
     try {
-        localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(contacts));
+      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(contacts));
     } catch (error) {
-        console.error("Failed to save contacts to local storage:", error);
+      console.error("Failed to save contacts to local storage:", error);
     }
   }, [contacts]);
 

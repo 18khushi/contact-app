@@ -11,7 +11,7 @@ const ContactCard = (props) => {
 
 
   const handleUserClick = () => {
-    navigate(`/user/${id}`, { 
+    navigate(`/user/${id}`, {
       state: { contact: { name, email, image: props.contact.image } },
 
     });
@@ -32,11 +32,11 @@ const ContactCard = (props) => {
         <div onClick={handleUserClick} style={{ cursor: "pointer" }}>{email}</div>
 
       </div>
-        <i
-          className="trash alternate outline icon"
-          style={{ color: "red", marginTop: "7px" }}
-          onClick={() => props.clickHandler(id)}
-        ></i>
+      <i
+        className="trash alternate outline icon"
+        style={{ color: "red", marginTop: "7px" }}
+        onClick={() => props.clickHandler(id)}
+      ></i>
 
     </div>
   );
