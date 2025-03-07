@@ -14,49 +14,70 @@
 
 .item {
   padding: 15px 0px !important;
-  background-color: #f0f8ff; /* Background color for contact cards */
-  border: 1px solid #ccc; /* Border for contact cards */
-  border-radius: 5px; /* Rounded corners */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
-  transition: transform 0.2s; /* Smooth transition for hover effect */
+  background-color: #f0f8ff;
+  /* Background color for contact cards */
+  border: 1px solid #ccc;
+  /* Border for contact cards */
+  border-radius: 5px;
+  /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Shadow effect */
+  transition: transform 0.2s;
+  /* Smooth transition for hover effect */
 }
 
 .item:hover {
-  transform: scale(1.02); /* Slightly enlarge on hover */
+  transform: scale(1.02);
+  /* Slightly enlarge on hover */
 }
 
 h2 {
-  background-color: #e6e6fa; /* Header background color */
-  color: black; /* Changed header text color to black */
-  font-weight: bold; /* Make header text bold */
-  padding: 10px; /* Padding for header */
-  border-radius: 5px; /* Rounded corners for header */
+  background-color: #e6e6fa;
+  /* Header background color */
+  color: black;
+  /* Changed header text color to black */
+  font-weight: bold;
+  /* Make header text bold */
+  padding: 10px;
+  /* Padding for header */
+  border-radius: 5px;
+  /* Rounded corners for header */
 }
 
 .item .header {
-  color: black; /* Contact name text color */
-  font-weight: bold; /* Make contact name bold */
+  color: black;
+  /* Contact name text color */
+  font-weight: bold;
+  /* Make contact name bold */
 }
 
 .item div {
-  color: black; /* Contact email text color */
-  font-weight: bold; /* Make contact email bold */
+  color: black;
+  /* Contact email text color */
+  font-weight: bold;
+  /* Make contact email bold */
 }
 
 
 .item .header {
-  color: black; /* Contact name text color */
-  font-weight: bold; /* Make contact name bold */
+  color: black;
+  /* Contact name text color */
+  font-weight: bold;
+  /* Make contact name bold */
 }
 
 .item div {
-  color: black; /* Contact email text color */
-  font-weight: bold; /* Make contact email bold */
+  color: black;
+  /* Contact email text color */
+  font-weight: bold;
+  /* Make contact email bold */
 }
 
 .ui.container {
-  background-color: #f0f8ff; /* Main container background color */
-  padding: 20px; /* Padding for the container */
+  background-color: #f0f8ff;
+  /* Main container background color */
+  padding: 20px;
+  /* Padding for the container */
 }
 
 i.icon {
